@@ -1,0 +1,42 @@
+html {
+    width:100%;
+    body {
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:center;
+        background-color:rgb(55, 55, 55);
+    }
+}
+
+.heizou {
+    margin-top:5%;
+    z-index:0;
+    position:relative;
+    width:20%;
+}  
+
+footer {
+    z-index:1;
+    width:20%;
+    background-color:white;
+    position:absolute;
+    h1{
+        text-align:center;
+        padding-right:5%;
+        padding-left:5%;
+    }
+    p{
+        display:none;
+        padding-right:5%;
+        padding-left:5%;
+    }
+}
+footer:hover{
+    p{
+        display:flex;
+    }
+}
+
+
+
